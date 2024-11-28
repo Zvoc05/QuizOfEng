@@ -1,0 +1,121 @@
+/* Dodajte ovaj CSS u svoju CSS datoteku */
+
+body {
+    font: 14px sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin-top: 100px; /* Povećajte udaljenost od vrha stranice */
+}
+
+
+
+.btn-warning.custom-btn {
+    background-color: #00a6c4;
+    color: #fff;
+    border: 1px solid #00a6c4;
+}
+
+.btn-danger.custom-btn {
+    background-color: #6c757d;
+    color: #fff;
+    border: 1px solid #6c757d;
+}
+
+.inlineblock{
+    display: inline-block;
+    text-align: left;
+}
+
+
+p {
+    padding-left: 2%; 
+}
+nav{
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.nav-link{
+
+    color:aliceblue;
+    font-size: large;
+    font-family:sans-serif;
+    transition-duration: 0.7s;
+    border-radius: 2px;
+    border: 1px ;
+
+}
+.nav-link:hover{
+    background-color: #00d9ff;
+    color: #fff;
+    transition-duration: 0.7s;
+
+}
+
+h1{
+    font-size:10%;
+}
+
+.footer{
+    background-color: #17a2b8;
+    margin-bottom: -16px;
+    text-align: left;
+    padding-left: 1%;
+    padding-bottom: 1%;
+}
+
+.inf{
+    color:aliceblue;
+    font-size: large;
+    font-family:sans-serif;
+    transition-duration: 0.7s;
+    text-decoration: none;
+}
+.inf:hover{
+    color: #000000;
+    transition-duration: 0.7s;
+    text-decoration: none;
+}
+.divjezik{
+    border: 2px solid #17a2b8;
+    border-radius: 5px;
+    margin: 0 auto;
+    transition-duration: 0.7s;
+}
+.kontenjer{
+    display: flex; justify-content: center;
+}
+
+.divjezik:hover{
+    background-color: #17a2b8;
+    border-color: #000000;
+    transition-duration: 0.7s;
+}
+
+.englink:link{
+    background-color: none;
+}
+.englink:visited{
+    background-color: none;
+}
+.englink:hover{
+    background-color: none;
+    color: black;
+    text-decoration: none;
+     transition-duration: 0.7s;
+}
+
+.englink:active{
+    background-color: none;
+}
+
+.englink{
+    color: #17a2b8;
+         transition-duration: 0.7s;
+}
